@@ -18,6 +18,11 @@ jobs:
         with:
           token: ${{ secrets.OKTETO_TOKEN }}
       
+      - name: "Activate personal namespace"
+        uses: okteto/namespace@master
+        with:
+          name: default
+      
       - name: "Create deployment"
         uses: okteto/apply@master
         with:
