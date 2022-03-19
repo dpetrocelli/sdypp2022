@@ -19,8 +19,8 @@ jobs:
       - name: "Create devlopment environments namespace"
         uses: okteto/create-namespace@latest
         with:
-          namespace: devenvs-cindylopez
-          members: rberrelleza,pchico83
+          namespace: development
+          
       
       # - name: GitHub Login
       #   uses: actions-hub/docker/login@master
