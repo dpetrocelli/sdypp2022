@@ -21,8 +21,27 @@ jobs:
         with:
           namespace: unlu-demo
       
-      - name: GitHub Login
+      # - name: GitHub Login
+      #   uses: actions-hub/docker/login@master
+      #     env:
+      #       DOCKER_USERNAME: ${{ secrets.DOCKER_USERNAME }}
+      #       DOCKER_PASSWORD: ${{ secrets.DOCKER_PASSWORD }}
+
+      - name: Login to github registry
         uses: actions-hub/docker/login@master
-          env:
-            DOCKER_USERNAME: ${{ secrets.DOCKER_USERNAME }}
-            DOCKER_PASSWORD: ${{ secrets.DOCKER_PASSWORD }}
+        env:
+          DOCKER_USERNAME: ${{ secrets.DOCKER_USERNAME }}
+          DOCKER_PASSWORD: ${{ secrets.DOCKER_PASSWORD }}
+
+      # - name: Build :latest
+      #   if: success()
+      #   run: docker build -t docker.pkg.github.com/${{ github.repository }}/app:latest .
+        
+      # - name: Push to docker hub :latest
+      #   if: success()
+      #   uses: actions-hub/docker@master
+      #   with:
+      #     args: push docker.pkg.github.com/${{ github.repository }}:latest
+      
+   
+          
