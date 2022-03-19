@@ -105,4 +105,4 @@ OKTETO -> Developer Settings -> Personal Access Tokens -> qSWf9URXGGbTsj1D5MSlz4
 
 Now github go to project () -> settings ->  secrets -> actions -> 
 
-https://github.com/dpetrocelli/sdypp2022/actions/new
+https://github.com/dpetrocelli/sdypp2022/actions/
