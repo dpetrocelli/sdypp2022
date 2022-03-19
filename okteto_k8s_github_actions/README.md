@@ -11,19 +11,20 @@
 8. save your token :) 
 
 # Now clean your current configure
+bash```
 git config --global user.name ""
 git config --global user.email ""
 git config -l
-
+```
 # Now configure your user (mail) and then paste the token
 git config --global user.email "dmpetrocelli@gmail.com"
 
 Lastly, to ensure the local computer remembers the token, we can enable caching of the credentials. This configures the computer to remember the complex token so that we dont have too.
-bash'''
+bash```
 git config --global credential.helper cache
 #or 
 git config credential.helper 'cache --timeout=<timeout>'
-'''
+```
 #If needed, you can later clear the token from the local computer by running
 
 #git config --global --unset credential.helper
