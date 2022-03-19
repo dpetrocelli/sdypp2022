@@ -88,3 +88,21 @@ git add . ; git commit -m "first push" ; git push
 # wipu
 git remote -v
 git remote set-url origin git@github.com:dpetrocelli/sdypp2022.git
+
+# Start Playing
+GitHub Actions is a continuous integration and continuous delivery (CI/CD) platform that allows you to automate your build, test, and deployment pipeline.
+
+GitHub proporciona máquinas virtuales Linux, Windows y macOS para que ejecutes tus flujos de trabajo o ..
+NICE ->  puedes hospedar tus propios ejecutores auto-hospedados en tu propio centro de datos o infraestructura en la nube.
+
+En tu repositorio, crea el directorio .github/workflows/ para almacenar tus archivos de flujo de trabajo.
+
+https://cloud.okteto.com/#/spaces/dpetrocelli
+. 0/10 pods
+. 5GB storage
+
+OKTETO -> Developer Settings -> Personal Access Tokens -> qSWf9URXGGbTsj1D5MSlz4FOMdbuh5amWtvJC5cCjL7QsrqW
+
+Now github go to project () -> settings ->  secrets -> actions -> 
+
+https://github.com/dpetrocelli/sdypp2022/actions/new

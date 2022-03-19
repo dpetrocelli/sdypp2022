@@ -1,0 +1,22 @@
+# File: .github/workflows/workflow.yml
+on: [push]
+
+name: cicd_pipeline
+
+jobs:
+
+  cicd_flow:
+    runs-on: ubuntu-latest
+    steps:
+    
+    - name: checkout
+      uses: actions/checkout@master
+    
+    - uses: okteto/context@latest
+      with:
+        token: ${{ secrets.OKTETO_TOKEN }}
+    
+    - name: "Create devlopment environments namespace"
+      uses: okteto/namespace@latest
+      with:
+        namespace: unlu-demo
