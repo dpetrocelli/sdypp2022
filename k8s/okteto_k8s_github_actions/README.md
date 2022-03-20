@@ -1,3 +1,8 @@
+# Configure Git-Bash in VSCODE ()
+
+https://medium.com/danielpadua/git-bash-with-vscode-593d5998f6be
+https://www.geeksforgeeks.org/how-to-integrate-git-bash-with-visual-studio-code/
+
 # Configure GH Token to modify code and push it :)
 
 ## WAY 1 (Not recommended)
@@ -89,19 +94,21 @@ git add . ; git commit -m "first push" ; git push
 git remote -v
 git remote set-url origin git@github.com:dpetrocelli/sdypp2022.git
 
-# Start Playing
+# Start Playing (CICD)
 GitHub Actions is a continuous integration and continuous delivery (CI/CD) platform that allows you to automate your build, test, and deployment pipeline.
 
 GitHub proporciona máquinas virtuales Linux, Windows y macOS para que ejecutes tus flujos de trabajo o ..
 NICE ->  puedes hospedar tus propios ejecutores auto-hospedados en tu propio centro de datos o infraestructura en la nube.
 
-En tu repositorio, crea el directorio .github/workflows/ para almacenar tus archivos de flujo de trabajo.
+En tu repositorio, crea el directorio .github/workflows/ para almacenar tus archivos de flujo de trabajo. (x ej: .github/workflows/prueba.yml)
+
+# Create pipeline to deploy to K8s
 
 https://cloud.okteto.com/#/spaces/dpetrocelli
 . 0/10 pods
 . 5GB storage
 
-OKTETO -> Developer Settings -> Personal Access Tokens -> qSWf9URXGGbTsj1D5MSlz4FOMdbuh5amWtvJC5cCjL7QsrqW
+OKTETO -> Developer Settings -> Personal Access Tokens -> 
 
 Now github go to project () -> settings ->  secrets -> actions -> 
 

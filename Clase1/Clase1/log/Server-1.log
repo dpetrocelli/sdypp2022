@@ -1,0 +1,11 @@
+2022-03-15 20:02:17 | INFO  | [main] o.e.Server:18 - msg: 9090
+2022-03-15 20:07:47 | INFO  | [main] o.e.Server:21 - Server has been started on port:  9090
+2022-03-15 20:08:27 | INFO  | [main] o.e.Server:21 - Server has been started on port:  9090
+2022-03-15 20:13:20 | INFO  | [main] o.e.Server:22 - Server has been started on port:  9090
+2022-03-15 20:15:36 | INFO  | [main] o.e.Server:22 - Server has been started on port:  9090
+2022-03-15 20:19:03 | INFO  | [main] o.e.Server:24 - Server has been started on port:  9090
+2022-03-15 20:19:09 | INFO  | [main] o.e.Server:44 - server has been answered client: 36574
+2022-03-15 20:19:48 | INFO  | [main] o.e.Server:24 - Server has been started on port:  9090
+2022-03-15 20:20:16 | INFO  | [main] o.e.Server:45 - server has been answered client: 36576
+2022-03-15 20:21:05 | INFO  | [main] o.e.Server:24 - Server has been started on port:  9090
+2022-03-15 20:21:15 | INFO  | [main] o.e.Server:45 - server has been answered client: 36580
