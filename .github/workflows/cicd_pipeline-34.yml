@@ -18,7 +18,7 @@ jobs:
         env:
           KUBE_CONFIG: ${{ secrets.KUBE_CONFIG_DATA }}
         with:
-          args: apply -f okteto_k8s_github_actions/yamls/deployment.yaml
+          args: apply -f k8s/okteto_k8s_github_actions/yamls/deployment.yaml
     
 
 
